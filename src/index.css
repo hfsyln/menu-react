@@ -1,13 +1,115 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  text-decoration: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*.main{
+ width: 600px;
+height: 200px;
+  border: 1px solid black;
+} */
+.totall {
+  border: solid yellow;
+}
+.card {
+  margin: 20px;
+  width: 50%;
+  height: 200px; 
+   border: 1px solid red; 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2rem;
+}
+.image {
+ 
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.content {
+  /* border: 1px solid red; */
+  padding: 0;
+  height: 160px;
+}
+.baş {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.3rem;
+  /*border-bottom: 1px dotted red;*/
+  letter-spacing: 1px;
+}
+h5,
+span {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+span {
+  color: orange;
+}
+p {
+  margin-top: 0;
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+}
+.category {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+i {
+  position: absolute;
+
+  right: 0;
+  top: 25%;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  border: 1px so;
+}
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: orange;
+  padding: 0.5rem;
+  /* border: 1px solid orange; */
+  width: 4rem;
+  height: 1rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 1rem;
+}
+
+
+
